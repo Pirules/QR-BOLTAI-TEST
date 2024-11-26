@@ -1,0 +1,15 @@
+{
+  "name": "qr-ticket-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-tickets.js",
+    "validate": "node validate-ticket.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "express": "^4.18.2",
+    "nanoid": "^5.0.4",
+    "sql.js": "^1.8.0"
+  }
+}
